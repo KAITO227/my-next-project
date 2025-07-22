@@ -18,6 +18,9 @@ export default function Menu() {
                     </li>
                 </ul>
             </nav>
+            <button className={styles.button}>
+                <Image src="/menu.svg" alt="メニュー" width={24} height={24}/>
+            </button>
         </div>
     );
 }
